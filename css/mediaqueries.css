@@ -1,0 +1,141 @@
+/* Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199px) {
+    .navbar {
+        font-size: 15px;
+    }
+    .main-header__background {
+        background-position: 65%;
+    }
+
+
+    .offer__title {
+        left: -13px;
+    }
+}
+
+/* Medium devices (tablets, less than 992px)*/
+@media (max-width: 991px) {
+    .navbar__phone-box {
+        display: none;
+    }
+    .navbar {
+        height: unset;
+    }
+
+    .main-header__background {
+        background-position: 40%;
+    }
+    .nav-item {
+        justify-content: center;
+    }
+
+    .main-header__background {
+        height: 400px;
+    }
+    .main-header__text {
+        font-size: 20px;
+        margin: 17px 0;
+    }
+    .main-header__title {
+        font-size: 44px;
+    }
+    .navbar__dropdown-link {
+        padding-left: 6%;
+    }
+    
+
+
+    .offer__col--right {
+        padding-top: 0;
+    }
+    .offer__title {
+        left: -50px;
+    }
+
+
+    .about__col {
+        margin-bottom: 40px;
+    }
+    .about__text {
+        text-align: center;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767px) {
+    .main-header__box-content {
+        width: 60%;
+    }
+    .navbar__dropdown-link {
+        padding: 0;
+        justify-content: center;
+    }
+    .navbar__link-title {
+        font-size: 27px;
+    }
+    .navbar__dropdown-icon {
+        width: 46px;
+    }
+    .main-header__background {
+        background-position: 50%;
+    }
+
+
+
+
+    .main-footer {
+        text-align: center;
+    }
+    .main-footer__col {
+        margin: 14px 0;
+    }
+}
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575px) {
+    .main-header__text {
+        font-size: 19px;
+        margin: 3px 0;
+    }
+    .main-header__box-content {
+        width: 90%;
+    }
+    .main-header__title {
+        font-size: 35px;
+    }
+    .main-header__image {
+        margin-bottom: 3px;
+        width: 50px;
+    }
+    .main-header__background {
+        background-position: 47%;
+    }
+    .navbar__dropdown-link {
+        width: 100%;
+        height: 140px;
+    }
+    .navbar__dropdown-link--third {
+        order: 4;
+    }
+    .navbar__dropdown-link--fourth {
+        order: 3;
+    }
+
+
+
+
+    .offer__title {
+        left: 16px;
+        font-size: 24px;
+    }
+
+    .offer__title--fit::before, .offer__title--sun::before, .offer__title--fig::before, .offer__title--hel::before {
+        bottom: -65px;
+    }
+}
+
+@media (max-width: 415px) {
+    .offer__title--fit, .offer__title--sun, .offer__title--fig, .offer__title--hel {
+        bottom: 67px;
+    }
+}
